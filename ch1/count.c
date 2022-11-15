@@ -1,10 +1,12 @@
 #include <stdio.h>
-/* count characters in input; 1st version */
+/* count characters in input; 2nd version */
 int main() {
-  long nc;
-  nc = 0;
-  while (getchar() != EOF) ++nc;
-  printf("%ld\n", nc);
+  double nc;
+  for (nc = 0; getchar() != EOF; ++nc)
+    ;  // This is a null statement, as for statements are required to have a
+       // body.
+
+  printf("%.0f\n", nc);
 
   return 0;
 }
