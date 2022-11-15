@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-#define LOWER 0	  /* lower limit of table */
+/* #define name replacement text  <- symbolic constant */ 
+#define LOWER 0	  /* lower limit of table */ 
 #define UPPER 300 /* upper limt */
 #define STEP 20	  /* step size */
 
