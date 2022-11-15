@@ -3,12 +3,12 @@
 /* copy input to output; 1st version */
 
 int main() {
-    int c;
+  int c;
 
+  c = getchar();
+  while (c != EOF) {
+    putchar(c);
     c = getchar();
-    while (c != EOF) {
-        putchar(c);
-        c = getchar();
-    }
-    return 0;
+  }
+  return 0;
 }
