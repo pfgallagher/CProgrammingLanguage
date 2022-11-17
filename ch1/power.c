@@ -11,10 +11,9 @@ int main() {
   return 0;
 }
 
-/* power: raise base to nth power; 0 <= n */
+/* power: raise base to nth power; 0 <= n; version 2 */
 int power(int base, int n) {
-  int i, p;
-  p = 1;
-  for (i = 1; i <= n; ++i) p = p * base;
+  int p;
+  for (p = 1; 0 < n; --n) p = p * base;
   return p;
 }
